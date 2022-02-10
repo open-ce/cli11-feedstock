@@ -14,7 +14,7 @@ build:
 
 requirements:
   build:
-    - cmake
+    - cmake {{cmake}}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - make  # [unix]
